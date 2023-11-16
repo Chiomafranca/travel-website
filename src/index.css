@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&display=swap');
+
+
+@layer base{
+   body{
+   font-family: 'Inclusive Sans', sans-serif;
+   }
+
+    li{
+        @apply p-4
+    }
+    li{
+        @apply p-4
+    }
+
+    h1{
+        @apply text-3xl md:text-4xl font-bold
+    }
+
+    h2{
+        @apply text-3xl font-bold
+    }
+    
+    h3{
+        @apply text-xl font-bold
+    }
+
+    button {
+        padding: 1rem;
+        background: var(--primary-dark);
+        background: linear-gradient(to top right, var(--primary-dark), var(--primary-light));
+        color: white;
+        border-radius: 0.25rem; 
+      }
+     
+ .icon{
+     @apply text-3xl cursor-pointer
+  }
+ 
+}
+
+ 
